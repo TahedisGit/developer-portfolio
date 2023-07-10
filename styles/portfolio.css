@@ -99,11 +99,32 @@ nav a {
 }
 
 /* main section css */
-
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 /* about section css */
 .about {
   padding: 150px;
   border-radius: 10px;
   background: #fff8f3;
   margin: 130px 0px;
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-info {
+  text-align: center;
+}
+
+.info-title {
+  color: #757575;
+  margin-bottom: 0px;
+}
+
+.info-desc {
+  margin-top: 0px;
 }
